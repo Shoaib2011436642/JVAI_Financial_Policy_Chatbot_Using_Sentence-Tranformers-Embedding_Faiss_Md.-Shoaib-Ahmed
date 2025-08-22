@@ -67,36 +67,18 @@ nltk>=3.8
 rich>=13.7
 ```
 
-**Windows note:** If `faiss-cpu` is problematic via `pip`, consider Conda:
-
-```bash
-conda install -c conda-forge faiss-cpu=1.8.0
-```
-
-If PyTorch doesn’t install automatically:
-
-```bash
-pip install torch --index-url https://download.pytorch.org/whl/cpu
-```
-
----
-
 ## ▶️ Run the Notebook
 
-```bash
-pip install -r requirements.txt
-jupyter notebook notebook/JVAI_Financial_Policy_CHATBOT.ipynb
-```
-*(Or open the notebook directly in Colab using the badge/link above.)*
+*Open the notebook directly in Colab using the link above and run the cells to check.)*
 
 ---
 
 ## ▶️ Run the Streamlit App
 
 ```bash
-# Optional: create & activate a virtual environment
+# Create & activate a virtual environment
 python -m venv .venv
-# Windows
+# Windows (Powershell)
 .\.venv\Scripts\activate
 # macOS/Linux
 # source .venv/bin/activate
@@ -186,4 +168,4 @@ More prompts to exercise retrieval + strict filtering + memory:
 
 ## 📄 License / Use
 
-For assessment purposes only. Please contact me before reusing code or data.
+For assessment purposes only. All credits to Join Venture AI.
