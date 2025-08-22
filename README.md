@@ -1,6 +1,6 @@
 # JVAI Financial Policy Chatbot
 
-This project began as a **Jupyter/Colab notebook**, then I built a **Streamlit app** that reproduces the exact pipeline and answers so recruiters can test it quickly.
+This project began as a **Colab notebook**, then I built a **Streamlit app** that reproduces the exact pipeline and answers so recruiters can test it quickly.
 
 ---
 
