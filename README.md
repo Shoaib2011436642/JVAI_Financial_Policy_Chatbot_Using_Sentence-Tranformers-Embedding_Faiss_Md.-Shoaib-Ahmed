@@ -16,7 +16,6 @@ The notebook implements the complete retrieval pipeline step‑by‑step and was
 - **Minimal memory** for follow‑ups (last‑topic heuristic)
 
 👉 **Open in Colab:** https://colab.research.google.com/drive/1oRzmf_fhhIQgWMAXfgFcrjV6iKzLA3kE?usp=sharing
-*(Replace `<COLAB_LINK_HERE>` with your actual Colab URL, e.g., a link to the notebook in your GitHub repository.)*
 
 **Notebook path (in this repo):**
 ```
