@@ -69,7 +69,7 @@ rich>=13.7
 
 ## ▶️ Run the Notebook
 
-*Open the notebook directly in Colab using the link above and run the cells to check.)*
+*Open the notebook directly in Colab using the link above and run the cells to check.*
 
 ---
 
@@ -168,4 +168,4 @@ More prompts to exercise retrieval + strict filtering + memory:
 
 ## 📄 License / Use
 
-For assessment purposes only. All credits to Join Venture AI.
+For assessment purpose only. All credits to Join Venture AI.
