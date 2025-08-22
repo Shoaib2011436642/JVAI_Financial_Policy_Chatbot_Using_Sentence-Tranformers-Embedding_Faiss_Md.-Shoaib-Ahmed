@@ -15,7 +15,7 @@ The notebook implements the complete retrieval pipeline step‑by‑step and was
 - **Strict post‑processing** tuned for policy Q&A (e.g., taxation vs GSP, strategic priorities, superannuation)
 - **Minimal memory** for follow‑ups (last‑topic heuristic)
 
-👉 **Open in Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](<COLAB_LINK_HERE>)  
+👉 **Open in Colab:** [![Open In Colab](https://colab.research.google.com/drive/1oRzmf_fhhIQgWMAXfgFcrjV6iKzLA3kE?usp=sharing)  
 *(Replace `<COLAB_LINK_HERE>` with your actual Colab URL, e.g., a link to the notebook in your GitHub repository.)*
 
 **Notebook path (in this repo):**
