@@ -4,7 +4,7 @@ This project began as a **Colab notebook**, then I built a **Streamlit app** tha
 
 ---
 
-## 📓 Notebook (created first)
+##  Notebook (created first)
 
 The notebook implements the complete retrieval pipeline step‑by‑step and was my primary development environment. It includes:
 - **PDF extraction** with `pdfplumber`
@@ -15,7 +15,7 @@ The notebook implements the complete retrieval pipeline step‑by‑step and was
 - **Strict post‑processing** tuned for policy Q&A (e.g., taxation vs GSP, strategic priorities, superannuation)
 - **Minimal memory** for follow‑ups (last‑topic heuristic)
 
-👉 **Open in Colab:** https://colab.research.google.com/drive/1oRzmf_fhhIQgWMAXfgFcrjV6iKzLA3kE?usp=sharing
+ **Open in Colab:** https://colab.research.google.com/drive/1oRzmf_fhhIQgWMAXfgFcrjV6iKzLA3kE?usp=sharing
 
 **Notebook path (in this repo):**
 ```
@@ -24,7 +24,7 @@ notebook/JVAI_Financial_Policy_CHATBOT.ipynb
 
 ---
 
-## 💻 Streamlit App (same pipeline, interactive)
+##  Streamlit App (same pipeline, interactive)
 
 To make evaluation easier, I ported the exact notebook logic into a **Streamlit app**. It uses the same:
 - extraction → chunking → embeddings → FAISS → hybrid search → strict post‑processing
@@ -35,7 +35,7 @@ When you run the app, it indexes the bundled PDF and lets you ask questions in a
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 ```
 .
@@ -52,7 +52,7 @@ When you run the app, it indexes the bundled PDF and lets you ask questions in a
 
 ---
 
-## ✅ Requirements
+##  Requirements
 
 This repo targets CPU setups and typical Windows/macOS/Linux dev machines.
 
@@ -67,13 +67,13 @@ nltk>=3.8
 rich>=13.7
 ```
 
-## ▶️ Run the Notebook
+##  Run the Notebook
 
 *Open the notebook directly in Colab using the link above and run the cells to check.*
 
 ---
 
-## ▶️ Run the Streamlit App
+##  Run the Streamlit App
 
 ```bash
 # Create & activate a virtual environment
@@ -101,7 +101,7 @@ data/For Task - Policy file.pdf
 
 ---
 
-## 🧪 Sample Questions (copy/paste to test)
+##  Sample Questions (copy/paste to test)
 
 Start with the four core prompts:
 
@@ -139,7 +139,7 @@ More prompts to exercise retrieval + strict filtering + memory:
 
 ---
 
-## 🧠 Design Notes (why answers look clean)
+##  Design Notes (why answers look clean)
 
 - **Chunking:** ~600‑char chunks; long paragraphs are sentence‑batched to keep meaning intact.  
 - **Embeddings:** `all-MiniLM-L6-v2` from `sentence-transformers`.  
@@ -153,7 +153,7 @@ More prompts to exercise retrieval + strict filtering + memory:
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 - **`ModuleNotFoundError: torch`** → install CPU wheel:
   ```bash
